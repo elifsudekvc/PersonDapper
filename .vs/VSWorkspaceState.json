@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\personDapper",
+    "\\personDapper\\Data",
+    "\\personDapper\\Data\\Repositories"
+  ],
+  "SelectedNode": "\\personDapper\\Data\\Repositories\\ApplicationDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}

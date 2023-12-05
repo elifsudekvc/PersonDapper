@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+
+@model Departmant
+
+
+<h2>Create Person</h2>
+
+<form asp-action="Create" method="post">
+<div class="mb-3">
+        <label for="DepartmantName">Departmant Name:</label>
+        <input asp-for="DepartmantName" placeholder="Departmant Name: " />
+</div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

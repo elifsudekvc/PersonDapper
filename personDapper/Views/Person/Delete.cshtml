@@ -1,0 +1,41 @@
+﻿@model personDapper.Models.Person
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<br />
+    <h3>Are you sure you want to delete?</h3>
+
+<br />
+    <div>
+
+    <dl class="row">
+        <dt style="color:red;" class="col-4">
+            First Name
+        </dt>
+        <dt style="color:red;" class="col-4">
+            Last Name
+        </dt>
+        <dt style="color:red;" class="col-4">
+            Departmant
+        </dt>
+        <dd class="col-4">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dd class="col-4">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dd class="col-4">
+            @Html.DisplayFor(model => model.Departmant)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id" />
+
+        <br />
+        <input type="submit" value="Delete" class="btn btn-outline-danger" />
+        <a asp-action="Index" class="btn btn-outline-secondary">Go Back</a>
+    </form>
+</div>
