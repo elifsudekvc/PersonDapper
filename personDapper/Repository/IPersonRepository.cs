@@ -4,11 +4,11 @@ namespace personDapper.Repository
 {
     public interface IPersonRepository
     {
-        IEnumerable<Person> GetAll();
-        public Person GetById(int id);
+        List<Person> GetAll(string que, object parametres = null);
+        public Person GetById(string que, object parametres=null);
         void Insert(Person person);
-        void Update(Person person);
-        void Delete(int id);
+        void Update( Person person);
+        void Delete(string que, object parametres=null);
     }
 
 }

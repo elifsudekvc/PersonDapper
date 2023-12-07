@@ -11,7 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IDbConnection>(provider =>
 new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IPersonRepository, PersonRepository>();
-builder.Services.AddScoped<IDepartmantRepository, DepartmantRepository>();
+builder.Services.AddScoped<IVKIRepository, VKIRepository>();
 
 
 var app = builder.Build();

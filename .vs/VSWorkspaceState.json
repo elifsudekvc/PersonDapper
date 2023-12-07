@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\personDapper",
-    "\\personDapper\\Data",
-    "\\personDapper\\Data\\Repositories"
+    "\\personDapper\\Controllers",
+    "\\personDapper\\Repository"
   ],
-  "SelectedNode": "\\personDapper\\Data\\Repositories\\ApplicationDbContext.cs",
+  "SelectedNode": "\\personDapper.sln",
   "PreviewInSolutionExplorer": false
 }

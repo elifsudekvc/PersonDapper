@@ -18,29 +18,42 @@ namespace personDapper.Repository
             _dbConnection = new SqlConnection(configuration.GetConnectionString("DefaultConnection"));
         }
 
-        public IEnumerable<Person> GetAll()
+        public List<Person> GetAll(string que, object parametres = null)
         {
-            return _dbConnection.Query<Person>("SELECT * FROM Persons");
+            return _dbConnection.Query<Person>("SELECT * FROM Persons "+que,parametres).ToList();
         }
 
-        public Person GetById(int id)
+        public Person GetById(string que, object parametres=null)
         {
-            return _dbConnection.QueryFirstOrDefault<Person>("SELECT * FROM Persons WHERE id = @id", new { id=id });
+            return _dbConnection.QueryFirstOrDefault<Person>("SELECT * FROM Persons "+ que,parametres );
         }
 
         public void Insert(Person person)
         {
-            _dbConnection.Execute("INSERT INTO Persons (FirstName, LastName, Departmant) VALUES (@FirstName, @LastName, @Departmant)", person);
+            _dbConnection.Execute(@"
+       INSERT INTO [dbo].[Persons]
+           ([FirstName]
+           ,[LastName]
+           ,[Departmant])
+        VALUES
+           (@FirstName
+           ,@LastName
+           ,@Departmant)", person);
         }
 
         public void Update(Person person)
         {
-            _dbConnection.Execute("UPDATE Persons SET FirstName = @FirstName, LastName = @LastName, Departmant = @Departmant WHERE id = @id", person);
+            _dbConnection.Execute(@" 
+                UPDATE [dbo].[Persons]
+                SET [FirstName] = @FirstName
+                ,[LastName] = @LastName
+                ,[Departmant] = @Departmant
+                 WHERE id=@id", person);
         }
 
-        public void Delete(int id)
+        public void Delete( string que, object parametres=null)
         {
-            _dbConnection.Execute("DELETE FROM Persons WHERE id = @id", new { id = id });
+            _dbConnection.Execute("DELETE FROM Persons "+que,parametres);
         }
     }
 

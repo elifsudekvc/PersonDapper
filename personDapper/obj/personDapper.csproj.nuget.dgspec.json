@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\back end\\personDapper\\personDapper\\personDapper.csproj": {}
+    "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\PersonDapper\\personDapper\\personDapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\back end\\personDapper\\personDapper\\personDapper.csproj": {
+    "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\PersonDapper\\personDapper\\personDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\back end\\personDapper\\personDapper\\personDapper.csproj",
+        "projectUniqueName": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\PersonDapper\\personDapper\\personDapper.csproj",
         "projectName": "personDapper",
-        "projectPath": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\back end\\personDapper\\personDapper\\personDapper.csproj",
+        "projectPath": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\PersonDapper\\personDapper\\personDapper.csproj",
         "packagesPath": "C:\\Users\\eskvc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\back end\\personDapper\\personDapper\\obj\\",
+        "outputPath": "C:\\Users\\eskvc\\OneDrive\\Masaüstü\\PersonDapper\\personDapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eskvc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

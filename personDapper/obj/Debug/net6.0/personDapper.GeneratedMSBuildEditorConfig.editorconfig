@@ -9,65 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = personDapper
 build_property.RootNamespace = personDapper
-build_property.ProjectDir = C:\Users\eskvc\OneDrive\Masaüstü\back end\personDapper\personDapper\
+build_property.ProjectDir = C:\Users\eskvc\OneDrive\Masaüstü\PersonDapper\personDapper\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\eskvc\OneDrive\Masaüstü\back end\personDapper\personDapper
+build_property.MSBuildProjectDirectory = C:\Users\eskvc\OneDrive\Masaüstü\PersonDapper\personDapper
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Departmant/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWFudFxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Departmant/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWFudFxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Departmant/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWFudFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Departmant/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWFudFxVcGRhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Home/Index.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Person/Create.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Person/Delete.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/Person/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Person/Index.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Person/Update.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/Person/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Shared/Error.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/_ViewImports.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/VKI/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVktJXGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/VKI/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVktJXGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/VKI/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVktJXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/_ViewStart.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eskvc/OneDrive/Masaüstü/back end/personDapper/personDapper/Views/Shared/_Layout.cshtml]
+[C:/Users/eskvc/OneDrive/Masaüstü/PersonDapper/personDapper/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ry3vd1erqo

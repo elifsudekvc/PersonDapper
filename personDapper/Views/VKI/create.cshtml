@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+
+@model VKI
+
+
+<h2>Create vki</h2>
+
+<form asp-action="Create" method="post">
+<div class="mb-3">
+        <label for="kilo">kilo:</label>
+        <input asp-for="kilo" placeholder="kilo: " />
+</div>
+    <div class="mb-3">
+        <label for="boy">boy:</label>
+        <input asp-for="boy" placeholder="boy: " />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

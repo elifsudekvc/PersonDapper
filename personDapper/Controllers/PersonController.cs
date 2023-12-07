@@ -15,13 +15,13 @@ namespace personDapper.Controllers
 
         public IActionResult Index()
         {
-            var persons = _personRepository.GetAll();
+            var persons = _personRepository.GetAll("");
             return View(persons);
         }
 
         public IActionResult Details(int id)
         {
-            var person = _personRepository.GetById(id);
+            var person = _personRepository.GetById("WHERE id=@id", new {id});
 
             if (person == null)
             {
@@ -47,10 +47,10 @@ namespace personDapper.Controllers
 
             return View(person);
         }
-
+        //aşağıdaki Update classı update edilmek istenilen verileri update sayfasına gönderip tekrardan yazmamamızı sağlıyor.
         public IActionResult Update(int id)
         {
-            var person = _personRepository.GetById(id);
+            var person = _personRepository.GetById("where id=@id", new {id});
 
             if (person == null)
             {
@@ -61,9 +61,10 @@ namespace personDapper.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update(int id, Person person)
+        public IActionResult Update( Person person)
         {
-            if (id != person.id)
+            
+            if (person.id != person.id)
             {
                 return NotFound();
             }
@@ -77,9 +78,11 @@ namespace personDapper.Controllers
             return View(person);
         }
 
+        //aşağıdaki Delete classı silinmek istenilen verileri delete sayfasına gönderip görmemizi sağlıyor.
+
         public IActionResult Delete(int id)
         {
-            var person = _personRepository.GetById(id);
+            var person = _personRepository.GetById("where id=@id", new {id});
 
             if (person == null)
             {
@@ -92,7 +95,7 @@ namespace personDapper.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
-            _personRepository.Delete(id);
+            _personRepository.Delete("where id=@id", new { id });
             return RedirectToAction(nameof(Index));
         }
     }
